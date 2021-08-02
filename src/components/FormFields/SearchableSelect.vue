@@ -8,11 +8,11 @@
         type="text"
         class="dropdown-input"
         ref="searchInputRef"
-        :autofocus="true"
         :placeholder="placeholder"
         @focus="isShowList = true"
         @blur="showInput = false"
       />
+      <!-- :autofocus="true" -->
       <!-- v-show="showInput" -->
     </div>
 
