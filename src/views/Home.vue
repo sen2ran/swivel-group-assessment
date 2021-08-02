@@ -41,8 +41,8 @@
       </template>
     </searchable-select>
   </div>
-  <template v-if="userDetails">
-    <user-card :userDetails="userDetails" />
+  <template v-if="userDetail">
+    <user-card :userDetail="userDetail" />
   </template>
   <template v-else>
     <div
@@ -78,7 +78,7 @@ export default {
       selectedField: { name: "Name", id: "name", endPoint: "SearchByField" },
       SearchComponentRerenderKey: Number(new Date()),
       selectedUser: {},
-      userDetails: undefined,
+      userDetail: undefined,
     });
 
     watch(
@@ -90,10 +90,9 @@ export default {
     watch(
       () => assetData.selectedUser,
       (val) => {
-        assetData.userDetails = null;
+        assetData.userDetail = undefined;
         getDetailByUserId(val._id).then((res) => {
-          console.log(res);
-          assetData.userDetails = res;
+          assetData.userDetail = res;
         });
       }
     );
