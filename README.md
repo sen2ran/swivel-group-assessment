@@ -1,24 +1,22 @@
-# swivel-group-assessment
+# Equipment Dashboard
 
-## Project setup
-```
-npm install
-```
+![N|Solid](image URL)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Tech
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- [Vue 3] - The Progressive JavaScript Framework.
+- [Tailwindcss] - A utility-first CSS framework.
 
-### Lints and fixes files
-```
-npm run lint
+### Installation
+
+Equipment Dashboard requires [Node.js](https://nodejs.org/) to run.
+Install the dependencies and devDependencies and start the server.
+
+```sh
+$ cd swivel-group-assessment
+$ npm install
+$ npm run serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[vue 3]: https://v3.vuejs.org/
+[tailwindcss]: https://tailwindcss.com/
