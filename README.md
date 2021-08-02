@@ -1,4 +1,4 @@
-# Equipment Dashboard
+# Swivel Group Assessment
 
 ![N|Solid](https://raw.githubusercontent.com/sen2ran/swivel-group-assessment/main/Screenshot.gif)
 
