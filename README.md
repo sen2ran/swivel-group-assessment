@@ -1,6 +1,6 @@
 # Equipment Dashboard
 
-![N|Solid](image URL)
+![N|Solid](https://raw.githubusercontent.com/sen2ran/swivel-group-assessment/main/Screenshot.png)
 
 ### Tech
 
