@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col h-screen justify-between mt-0">
+  <div class="flex flex-col  justify-between mt-0">
     <page-header />
     <section class="container max-w-6xl  mx-auto px-8 my-8 lg:min-h-screen">
       <slot></slot>

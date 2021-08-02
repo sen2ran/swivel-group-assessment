@@ -3,6 +3,7 @@
     <!-- @click="handleInput" -->
     <div class="dropdown-input px-6">
       <label class="px-7">{{ selectedValue }}</label>
+      <br />
       <input
         v-model.trim="inputValue"
         type="text"

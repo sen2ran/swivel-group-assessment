@@ -48,7 +48,7 @@
     <div
       class="w-full max-w-md  mx-auto bg-white shadow-md rounded-md px-6 py-4 my-6"
     >
-      <h1>No user selectedUser</h1>
+      <h1>No user Selected</h1>
     </div>
   </template>
 </template>
